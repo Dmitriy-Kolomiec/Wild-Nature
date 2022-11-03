@@ -1,0 +1,23 @@
+.container_company {
+    position: relative;
+    height: 100%;
+
+}
+.company_cone_left {
+    position: absolute;
+    top: 380px;
+    left: -230px;
+    pointer-events: none;
+}
+.company_cone_right {
+    position: absolute;
+    top: 200px;
+    right: -80px;
+}
+#about_company {
+    max-width: 900px;
+    margin-top: 15px !important;
+}
+#sup_title {
+    margin: 20px auto;
+}

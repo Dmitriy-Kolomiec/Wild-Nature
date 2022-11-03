@@ -1,0 +1,29 @@
+/*main*/
+.main {
+  display: flex;
+  margin: 220px auto;
+  justify-content: center;
+}
+.map_country {
+  position: relative;
+}
+.view_map {
+  width: 90%;
+  height: 100%;
+}
+.cone_map {
+  position: absolute;
+  top: 90px;
+  left: -270px;
+  z-index: 10;
+}
+.main_text {
+  width: 385px;
+  height: 330px;
+}
+.text_map {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #333;
+}

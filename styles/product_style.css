@@ -1,0 +1,152 @@
+/*product*/
+.oil_salmon_cone_left {
+    position: absolute;
+    top: 100px;
+    left: -70px;
+    z-index: 10;
+}
+.oil_salmon_cone_right {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    z-index: 10;
+}
+.tube_salmon {
+    margin-left: 50px;
+}
+.product_container_one {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 300px;
+    position: relative;
+}
+.product_photo {
+    width: 50%;
+    position: relative;
+    pointer-events: none;
+    margin-left: 50px;
+}
+.fish_salmon {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 430px;
+    left: -30px;
+}
+.product_info {
+    width: 50%;
+}
+.product_title {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+
+    color: #2c6f2f;
+}
+.product_text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+.product_subtext {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #c4c4c4;
+}
+.product_volume {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #d0d0d0;
+}
+.volume {
+    display: none;
+}
+.volume_text {
+    border-right: 2px solid #d0d0d0;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.volume_text:last-child {
+    border-right: none;
+}
+.volume:checked + .volume_text {
+    color: #000;
+}
+fieldset {
+    border: none;
+    margin-left: -20px;
+}
+/*ANTLER*/
+.antler_info {
+    text-align: end;
+    justify-content: flex-end;
+}
+.box_antler {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: -100px;
+    left: -70px;
+}
+.deer_antler {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    top: 200px;
+    left: -100px;
+}
+.branch_antler {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 240px;
+    left: 55%;
+}
+/*BULL ROOT*/
+.product_bull_root {
+    position: relative;
+    margin-bottom: 400px;
+}
+.zip_bag {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    top: -30px;
+    left: -120px;
+}
+.bull {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+    top: 250px;
+    left: 0;
+}
+.bull_cone_left {
+    position: absolute;
+    top: 100px;
+    left: -120px;
+}
+/*LOGISTIC*/
+.logistic_title {
+    font-size: 35px;
+}
+.info_logistic {
+    padding-top: 80px;
+}
+.logistic_auto {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -130px;
+    left: -100px;
+    pointer-events: none;
+}

@@ -1,0 +1,438 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        margin-bottom: 100px;
+    }
+    .container-intro {
+        background: no-repeat 220px -20px / contain url('../images/intro/cover.png');
+    }
+    .list-item {
+        width: 30%;
+        height: 300px;
+    }
+    .label_item {
+        width: 120px;
+        height: 120px;
+    }
+    .product_container_one {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+    }
+    .product_photo {
+        width: 100%;
+        height: 600px;
+    }
+    .product_info {
+        margin-top: 50px;
+        width: 100%;
+        margin: 50px;
+    }
+    .antler_info {
+        text-align: start;
+        justify-content: flex-start;
+    }
+
+    .section--map {
+        max-width: 500px;
+        width: 100%;
+        height: 500px;
+        margin-left: -10px;
+    }
+    .contact {
+        width: 40%;
+    }
+    .container_slider {
+        margin-top: 100px;
+        max-width: 1000px;
+        width: 100%;
+    }
+    .slider {
+        width: 100%;
+        height: 350px;
+        margin: aut0;
+    }
+    .slider_line_js {
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 980px;
+        height: 300px;
+        left: 0;
+        margin: 0 auto;
+    }
+    .slider_view img {
+        width: 40%;
+        margin: 20px;
+    }
+    .slider_view img:last-child {
+        margin: 20px auto;
+    }
+    .slider_btn {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 980px) {
+    .container-intro {
+        background: none;
+    }
+    .intro_container {
+        margin-top: 50px;
+    }
+    .intro_cone_right {
+        right: -196px;
+        top: 150px;
+    }
+    .text_map {
+        font-size: 14px;
+    }
+    .list-item {
+        width: 25%;
+        height: 180px;
+        border-radius: 25px;
+    }
+    .label_item {
+        width: 80px;
+        height: 80px;
+    }
+    .list-item-decorate-cone {
+        width: 60%;
+    }
+    .btn_filter {
+        width: 230px;
+        height: 70px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 5px 100px;
+    }
+    .product_buy {
+        width: 270px;
+        height: 50px;
+    }
+    .product_title {
+        font-size: 30px;
+    }
+    .product_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .product_subtext {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .slider_line_js img {
+        width: 40%;
+        height: 70px;
+    }
+    .contact_cone_right {
+        top: -200px;
+        right: -150px;
+    }
+    .back_to_top {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (min-width: 500px) and (max-width: 780px) {
+    .title {
+        width: 50%;
+    }
+    .header {
+        display: none;
+    }
+    .container-intro {
+        background: none;
+    }
+    .intro_cone_right {
+        scale: 0.5;
+        top: 10px;
+        right: -230px;
+    }
+    .intro_cone_left {
+        scale: 0.5;
+        top: 150px;
+        left: -220px;
+    }
+    .intro_title {
+        font-size: 38px;
+    }
+    .intro_suptitle {
+        font-size: 30px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main_text {
+        width: 100%;
+        margin: 20px;
+    }
+    .over_map {
+        scale: 0.4;
+        top: -100px;
+        left: -200px;
+    }
+    .trxt_map {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .list-item {
+        width: 30%;
+        height: 150px;
+        border-radius: 25px;
+    }
+    .label_item {
+        width: 80px;
+        height: 80px;
+    }
+    .list-item-decorate-cone {
+        width: 100px;
+        scale: 0.7;
+    }
+    .list-item-decorate-cat {
+        top: -38%;
+    }
+    .img_dog {
+        scale: 0.7;
+        right: -213px;
+        top: -90px;
+    }
+    .btn_filter {
+        width: 230px;
+        height: 70px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 5px 100px;
+    }
+    .product_buy {
+        width: 270px;
+        height: 50px;
+    }
+    .product_photo {
+        margin-right: 220px;
+        scale: 0.8;
+    }
+    .product_title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .product_container_one {
+        margin-bottom: -30px;
+    }
+    .branch_antler {
+        left: 100%;
+    }
+    .bull_cone_left {
+        left: -200px;
+    }
+    .volume_text {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .slider_line_js img {
+        width: 40%;
+        height: 50px;
+    }
+    .contact_cone_right {
+        top: -200px;
+        right: -150px;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map_footer {
+        width: 100px;
+        height: 100px;
+    }
+    /* .section--map {
+        width: 500px;
+        height: 100px;
+    } */
+    .contact {
+        margin-top: 200px;
+        width: 100%;
+    }
+    .back_to_top {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        padding: 0 30px;
+    }
+    .title {
+        width: 50%;
+    }
+    .header {
+        display: none;
+    }
+    .container-intro {
+        background: none;
+    }
+    .intro_cone_right {
+        scale: 0.3;
+        top: -20px;
+        right: -220px;
+    }
+    .intro_cone_left {
+        scale: 0.3;
+        top: 200px;
+        left: -220px;
+    }
+    .intro_title {
+        font-size: 30px;
+    }
+    .intro_suptitle {
+        font-size: 24px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main_text {
+        width: 100%;
+        margin: 20px;
+    }
+    .cone_map {
+        scale: 0.4;
+        top: -100px;
+        left: -200px;
+    }
+    .text_map {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .list-item {
+        width: 30%;
+        height: 150px;
+        border-radius: 25px;
+    }
+    .label_item {
+        width: 80px;
+        height: 80px;
+    }
+    .list-item-decorate-cone {
+        width: 100px;
+        scale: 0.7;
+    }
+    .list-item-decorate-cat {
+        top: -38%;
+    }
+    .img_dog {
+        display: none;
+    }
+    .btn_filter {
+        width: 230px;
+        height: 70px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 5px 100px;
+    }
+    .product_buy {
+        width: 270px;
+        height: 50px;
+    }
+    .product_photo {
+        margin-right: 220px;
+        scale: 0.6;
+    }
+    .product_title,
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .product_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .product_container_one {
+        margin-bottom: -30px;
+    }
+    .oil_salmon_cone_right {
+        scale: 0.6;
+        top: -51px;
+        right: -60px;
+    }
+    .oil_salmon_cone_left {
+        scale: 0.6;
+        left: -120px;
+    }
+    .branch_antler {
+        scale: 0.6;
+        left: 170px;
+    }
+    .bull_cone_left {
+        scale: 0.8;
+        left: -230px;
+    }
+    .volume_text {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .slider_line_js img {
+        width: 350px;
+        height: 40px;
+        left: 0;
+    }
+    .contact_cone_right {
+        top: -200px;
+        right: -150px;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map_footer {
+        margin-top: 30px;
+        order: 2;
+        width: 100px;
+        height: 100px;
+    }
+    .section--map {
+        width: 500px;
+        height: 150px;
+        margin-left: -190px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .contact {
+        margin-top: 200px;
+        width: 100%;
+    }
+    .contact_cone_right {
+        scale: 0.6;
+        top: -80px;
+        right: -120px;
+    }
+    .contact_title {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .contact_text {
+        font-size: 20px;
+    }
+    .back_to_top {
+        width: 45px;
+        height: 45px;
+        right: 20px;
+    }
+    .back_to_top::before {
+        width: 5px;
+        height: 20px;
+    }
+    .back_to_top::after {
+        width: 15px;
+        height: 15px;
+    }
+}
